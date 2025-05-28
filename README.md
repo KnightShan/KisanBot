@@ -42,3 +42,28 @@ KISANCHAT is an AI-powered chatbot designed to assist Indian farmers with agricu
    ```bash
    git clone https://github.com/KnightShan/kisanchat.git
    cd kisanchat
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Set your environment variables**
+   Add a .env file or set in your code:
+   ```ini
+   PINECONE_API_KEY=your-pinecone-key
+   TOGETHER_API_KEY=your-together-key
+
+4. **Add your PDF files**
+   Place them in the Data/ folder.
+
+5. **Run the index creation script**
+   ```bash
+   python store_index.py
+
+6. **Start the Flask app**
+   ```bash
+   python app.py
+
+7. **Open in browser**
+   Visit: http://localhost:8080
+
