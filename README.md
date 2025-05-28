@@ -47,13 +47,13 @@ KISANCHAT is an AI-powered chatbot designed to assist Indian farmers with agricu
    ```bash
    pip install -r requirements.txt
 
-3. **Set your environment variables**
+3. **Set your environment variables**  
    Add a .env file or set in your code:
    ```ini
    PINECONE_API_KEY=your-pinecone-key
    TOGETHER_API_KEY=your-together-key
 
-4. **Add your PDF files**
+4. **Add your PDF files**  
    Place them in the Data/ folder.
 
 5. **Run the index creation script**
@@ -64,6 +64,6 @@ KISANCHAT is an AI-powered chatbot designed to assist Indian farmers with agricu
    ```bash
    python app.py
 
-7. **Open in browser**
+7. **Open in browser**  
    Visit: http://localhost:8080
 
